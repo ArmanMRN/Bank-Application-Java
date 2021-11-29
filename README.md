@@ -1,5 +1,5 @@
 # Bank Project
-##Instalation
+## Instalation
 
 
 ### java fx :
@@ -13,7 +13,7 @@ in java version 1.8 there is no need for the javafx libraries
 4) for banker and manager run main.java
 5) for customer run ATM.java
 
-#About app
+# About app
 
 this app provided in two parts <br>
 one part is <b> banker's panel and manager's panel</b><br>
