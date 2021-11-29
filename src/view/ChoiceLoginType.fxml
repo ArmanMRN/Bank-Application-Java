@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerChoiceLoginType">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <bottom>
+            <AnchorPane prefHeight="430.0" prefWidth="226.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="315.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../backGrounds/f6a5a91c21b90d9bf387e8b1a34684d0.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="bankerLoginButton" layoutX="117.0" layoutY="152.0" mnemonicParsing="false" onAction="#bankerLoginButtonAction" prefHeight="51.0" prefWidth="366.0" style="-fx-background-color: #171717;" text="Banker" textFill="#f2ecec">
+                     <font>
+                        <Font name="Cooper Black" size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="managerLoginButton" layoutX="117.0" layoutY="235.0" mnemonicParsing="false" onAction="#managerLoginButtonAction" prefHeight="50.0" prefWidth="368.0" style="-fx-background-color: #171717;" text="Manager" textFill="#f2ecec">
+                     <font>
+                        <Font name="Cooper Black" size="21.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="109.0" fitWidth="174.0" layoutX="221.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../backGrounds/152533.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+      <ImageView fitHeight="72.0" fitWidth="90.0" layoutX="501.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backGrounds/backGround_12.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="80.0" layoutX="509.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backGrounds/backGround11.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

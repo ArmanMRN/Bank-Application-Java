@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ManagerPanelController">
+    <center>
+        <AnchorPane prefHeight="400.0" prefWidth="356.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="404.0" fitWidth="332.0" layoutX="-3.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../backGrounds/backGround12.jpg" />
+                    </image>
+                </ImageView>
+                <Text fill="#141616" layoutX="48.0" layoutY="65.0" stroke="#cfc7c7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: #ffffff;" text="Manager Panel" textAlignment="CENTER" underline="true" wrappingWidth="206.93670654296875">
+                    <font>
+                        <Font name="Stencil" size="30.0" />
+                    </font>
+                </Text>
+                <Button fx:id="operatorsListButton" layoutX="338.0" layoutY="81.0" mnemonicParsing="false" onAction="#OperatorsListButtonAction" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: #1c8ea2;" text="operators' list" textAlignment="CENTER" textFill="#ebeff0">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="addOperatorButton" layoutX="338.0" layoutY="136.0" mnemonicParsing="false" onAction="#AddOperatorButtonAction" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: #1c8ea2;" text="add operator" textAlignment="CENTER" textFill="#ebeff0">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="customersListButton" layoutX="338.0" layoutY="187.0" mnemonicParsing="false" onAction="#CustomersListButtonAction" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: #1c8ea2;" text="customers' list" textAlignment="CENTER" textFill="#ebeff0">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="bankInfoButton" layoutX="338.0" layoutY="239.0" mnemonicParsing="false" onAction="#BankInfoButtonAction" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: #1c8ea2;" text="bank Info" textAlignment="CENTER" textFill="#ebeff0">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="settleProfitsButton" layoutX="338.0" layoutY="291.0" mnemonicParsing="false" onAction="#SettleProfitsButtonAction" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: #1c8ea2;" text="settle profits" textAlignment="CENTER" textFill="#ebeff0">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="deleteInfoDataBaseButton" layoutX="338.0" layoutY="342.0" mnemonicParsing="false" onAction="#DeleteInfoDataBaseButtonAction" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: #1c8ea2;" text="delete Info dataBase" textAlignment="CENTER" textFill="#ebeff0">
+                    <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                    </font>
+                </Button>
+                <ImageView fitHeight="70.0" fitWidth="73.0" layoutX="423.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../backGrounds/backGround11.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

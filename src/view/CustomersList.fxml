@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CustomersListController">
+   <children>
+      <ImageView fitHeight="739.0" fitWidth="1120.0" layoutX="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backGrounds/495c1d32a90939748a94b6c116dde162.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="739.0" fitWidth="1109.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backGrounds/495c1d32a90939748a94b6c116dde162.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="14.0" layoutY="54.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1300.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+        <columns>
+          <TableColumn fx:id="nationalID" prefWidth="132.0" text="National ID" />
+          <TableColumn fx:id="fullName" prefWidth="145.0" text="FullName" />
+            <TableColumn fx:id="fatherName" minWidth="0.0" prefWidth="59.0" text="FatherName" />
+            <TableColumn fx:id="cardID" minWidth="0.0" prefWidth="203.0" text="Card ID" />
+            <TableColumn fx:id="phoneNumber" minWidth="0.0" prefWidth="126.0" text="PhoneNumber" />
+            <TableColumn fx:id="email" prefWidth="176.0" text="Email" />
+            <TableColumn fx:id="address" prefWidth="143.0" text="Address" />
+            <TableColumn fx:id="password" prefWidth="70.0" text="Password" />
+            <TableColumn fx:id="loanID" prefWidth="93.0" text="Loan ID" />
+            <TableColumn fx:id="accountType" prefWidth="74.0" text="Accoount Type" />
+            <TableColumn fx:id="balance" prefWidth="144.0" text="Balance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
